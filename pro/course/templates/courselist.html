@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>All Courses</title>
+</head>
+<body>
+    <h1>All Courses</h1>
+    <ul>
+        {% for course in mod %}
+            <li>
+                {{ course.name }} | {{ course.name }} | {{ course.instuction }}
+                <a href="{% url 'course-update' course.id %}">Update Course</a>
+                <a href="{% url 'course-delete' course.id %}">Delete Course</a>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

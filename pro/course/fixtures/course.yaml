@@ -1,0 +1,29 @@
+- model: course.Course
+  pk: 'C001'
+  fields:
+    name: 'Introduction to Python'
+    instuction: 'Learn the basics of Python programming.'
+
+- model: course.Course
+  pk: 'C002'
+  fields:
+    name: 'Web Development with Django'
+    instuction: 'Build web applications using Django framework.'
+
+- model: course.Course
+  pk: 'C003'
+  fields:
+    name: 'Data Science Fundamentals'
+    instuction: 'Understand basic concepts of data analysis and visualization.'
+
+- model: course.Course
+  pk: 'C004'
+  fields:
+    name: 'Machine Learning'
+    instuction: 'Learn about machine learning algorithms and techniques.'
+
+- model: course.Course
+  pk: 'C005'
+  fields:
+    name: 'Advanced Django'
+    instuction: 'Dive deeper into Django and learn advanced techniques.'
